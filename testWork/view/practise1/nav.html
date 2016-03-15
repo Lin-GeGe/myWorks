@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body
+		{
+			font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+		}
+	    ul,body{
+	     	margin:0;
+	     	padding: 0;
+	     }
+	     a{
+	     	text-decoration:none;
+	     	color:#aaa;
+	     }
+		li{
+			list-style-type:none;
+			color:#aaa;
+		}
+		.nav
+		{
+			height:43px;
+			background-color:#222;
+			padding: 0 50px;
+		}
+		 .top:after{  /*推荐使用的，解决浮动导致父元素高度为0的方法*/
+			content: '';
+			display: block;
+			height: 0;
+			overflow: hidden;
+			clear: both;
+		} 
+		.top li a:hover{  /*鼠标滑动改变样式的伪类*/
+			text-decoration: none;
+			color: #fff;
+		}
+		.top li {
+			float:left;
+			height:43px;
+			line-height:43px;
+		}
+		.nav_text_first
+		{
+			font-size:18px;
+			margin-left:50px;
+	    }
+		.nav_text
+		{
+			cursor:pointer;
+			font-size:14px;
+			margin-left:30px;
+	    }
+	    .nav_text_last
+		{
+			margin-left:240px;
+			font-size:14px;
+	    }
+	    .top .nav_text {
+			cursor:pointer;
+			font-size:14px;
+			margin-left:30px;
+	    }
+	    .top .nav_text:first-child { /*第一个元素*/
+			font-size:18px;
+	    }
+	    .top .nav_text:last-child { /*最后一个元素*/
+	    	float: right;
+			font-size:14px;
+	    }
+	    #title:before{  /*伪元素*/
+			content: url(../../img/1-1.jpg);
+	    }
+	    #title:after{ /*伪元素*/
+			content: url(../../img/1-1.jpg);
+	    	
+	    }
+
+
+
+
+	    li{
+			list-style-type:none;
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul class="top">
+		  	<li class="nav_text_first"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text_last">关于</li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text"><a href="#">Bootstrap中文网</a></li>
+		  	<li class="nav_text">关于</li>
+		  	<div style="clear: both"></div>
+		</ul>	
+	</div>
+	<h1 id="title">看我的左右</h1>
+ 
+
+	
+
+	</div>
+</body>
+</html>

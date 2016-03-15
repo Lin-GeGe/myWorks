@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.top_text{
+			font-family: Microsoft YaHei;
+			font-size:18px;
+		}
+		form{
+			width:311px;
+		}
+		.name{
+			margin-top:20px;
+			width:300px;
+			height:30px;
+			border:1px solid #d8d8d8;
+			color:#b7b7b7;
+			padding-left:10px;
+			background:url(../../img/icon_3.jpg) no-repeat 98% center;
+
+		}
+		.password{
+			margin-top:10px;
+			width:300px;
+			height:30px;
+			border:1px solid #d8d8d8;
+			display:block;
+			color:#b7b7b7;
+			padding-left:10px;
+			background:url(../../img/icon_4.jpg) no-repeat  98% center;
+		}
+		.checkbox{
+			margin:0;
+			vertical-align: middle;
+			margin-right: -4px;
+			margin-bottom: -1px;
+		}
+		.checkbox_text{
+	         font-size:12px;
+	         vertical-align: middle;
+
+		}
+		.forgetpw{
+			float:right;
+			margin-top:5px;
+			font-size:12px;
+			color:#05c4b8;
+			text-decoration: none;
+
+		}
+		.form_bottom{
+			padding-top:5px;
+		}
+		
+		.btn_login{
+			display:block;
+			width:311px;
+			height:41px;
+			line-height: 41px;
+			margin-top:15px;
+			background-color: #00b5a9;
+			color:#fff;
+			border-style: none;
+		}
+		.bottom{
+			margin-top:23px;
+			font-size:12px;
+			border-top:1px solid #d8d8d8;
+			width:311px;
+			padding-top:20px;
+			color:#4b4b4b;
+		}
+		.btn_qq{
+			display:block;
+			width:105px;
+			height:32px;
+			line-height: 32px;
+			margin-top:10px;
+			background-color: #4a9df9;
+			color:#fff;
+			border-style: none;
+
+		}
+	</style>
+</head>
+<body>
+    <div class="box">
+		<div class="top_text" >登录</div>
+		<div class="top">
+			<form>
+				<div class="form_top">
+					<input type="text" class="name"  name="name" value="请输入用户名"  placeholder="请输入账号" />
+					<input type="password" class="password" name="password" value="请输入密码"placeholder="请输入密码" />
+				</div>
+				<div class="form_bottom">
+					<input type="checkbox" name="" class="checkbox"/>
+					<span class="checkbox_text">记住我的登录</span>
+					<a href="" class="forgetpw">忘记密码？</a>
+					<button class="btn_login">登录</button>
+				</div>
+			</form>
+		 </div>
+		<div class="bottom">
+			<label>您也可以使用第三方软件登录</label>
+			<button class="btn_qq">QQ账号登录</button>
+		</div>
+	</div>
+</body>
+</html>

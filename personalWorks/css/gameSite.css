@@ -1,0 +1,252 @@
+/* public css*/
+body{
+	background-color: #f8f8f8;
+}
+body, h3,h5,h4,p{
+	margin:0;
+	font-family: Microsoft Yahei;
+}
+h4,h3{
+	font-weight: normal;
+}
+h3{
+	font-size: 17px;
+	display: inline-block;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+/* main css*/
+.main {
+	width: 100%;
+    max-width: 768px;
+    min-width: 300px;
+    min-height: 176px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.row {
+   margin:10px 0 0 0;
+}
+.header{
+	text-align: center;
+	padding: 0 20px;
+	
+}
+.header_menu{
+	width: 21px;
+	height: 19px;
+	background: url(../img/gameSite/sprite.png) no-repeat;
+	background-position: -39px 3px;
+	float: left;
+	background-size: 60px 174px;
+}
+.header_logo,.carousel{
+	display: inline-block;
+}
+.header_logo img{
+	width: 90px;
+	height:19px;
+}
+.header_search{
+	width: 21px;
+	height: 19px;
+	background: url(../img/gameSite/sprite.png) no-repeat;
+	background-position: -39px -17px;
+	float: right;
+	background-size: 60px 174px;
+}
+.carousel img{
+	/*width:770px;*/
+	width: 100%;
+}
+.navList{
+	font-size: 0;
+}
+.navList li {
+	width: 20%;
+	display: inline-block;
+	height: 70px;
+	font-size: 12px;
+	text-align: center;
+}
+.navList li h5{
+     margin-top: 5px;
+}
+.navPic{
+	width: 50px;
+	height: 50px;
+	background:url(../img/gameSite/nav.png) no-repeat;
+	background-position: 0;
+	margin:0 auto;
+	background-size: cover;
+}
+
+.navList li:nth-of-type(2) .navPic{
+	background-position: -50px 0;
+}
+.navList li:nth-of-type(3) .navPic{
+	background-position: -100px 0;
+}
+.navList li:nth-of-type(4) .navPic{
+	background-position: -150px 0;
+}
+.navList li:nth-of-type(5) .navPic{
+	background-position: -200px 0;
+}
+.titleBar{
+	height: 31px;
+	line-height: 31px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+	padding: 0 8px 0 0;
+}
+.titleBar h3{
+   color:#4398d1;
+}
+.titleBar a{
+   color:#888;
+   float: right;
+   font-size:14px;
+}
+.titleBar i{    
+	float: left;
+    width: 8px;
+    height: 27px;
+    background: #4398d1;
+    border-top: 2px solid #3287c0;
+    border-bottom: 3px solid #3287c0;
+    margin-right: 8px;
+}
+
+.gameList{
+	font-size: 0;
+}
+.gameList1 {
+	width: 33.3%;
+	text-align: center;
+	padding: 0 0 3px 0;
+	font-size: 13px;
+	display: inline-block;
+	border-bottom: 1px solid #aaa;
+}
+.gameList_content{
+	margin: 12px 0;
+}
+.gameList1 img {
+	width: 33.3%;
+	width: 72px;
+	height: 72px;
+}
+.gameList1 h4 {
+	padding:5px 0;
+	font-size: 14px;
+}
+.gameList1 P{
+	color:#968888;
+	padding-bottom: 5px;
+}
+.gameDown{
+	width: 74px;
+	height: 21px;
+	background-color: #4398d1;
+	padding: 3px 3px 3px 5px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.gameDown i{
+	background: url(../img/gameSite/sprite.png);
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background-position: -48px -36px;
+	background-size: 60px;
+}
+.gameList1:nth-of-type(7){
+	border-bottom: none;
+}
+.gameList1:nth-of-type(8){
+	border-bottom: none;
+}
+.gameList1:nth-of-type(9){
+	border-bottom: none;
+}
+.picList{
+	border-bottom: 1px solid #aaa;
+}
+.picList li:after{
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+
+}
+.picList li:first-child{
+	border-bottom: 1px solid #aaa;
+}
+.pic img{
+	width: 119px;
+	height: 82px;
+	padding: 15px;
+	float: left;
+}
+.picList li h4{
+	font-size: 14px;
+	max-height: 40px;
+    overflow: hidden;
+}
+.picList li p{
+	font-size: 12px;
+	color: #888;
+	max-height: 32px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.textList{
+	padding: 10px 0 ;
+	border-bottom: 1px solid #888;
+}
+.textList li{
+	line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.textList_title{
+	display: inline-block;
+	color:#888;
+	font-size: 14px;
+}
+.textList li a{
+	color: #000;
+}
+.footer{
+	padding-bottom: 8px;
+	margin: 0 auto;
+	width: 300px;
+	font-size: 12px;
+
+}
+.footer_more{
+	color:#888;
+	padding: 0 6px;
+
+}
+.footer_line{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(../img/gameSite/sprite.png);
+	background-position: -53px -54px;
+	background-size: 65px;
+}
+

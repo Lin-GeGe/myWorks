@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		.box {
+			width: 600px;
+			border: 1px solid #ccc;
+		}
+		.content_left{
+			float:left;
+			display:inline-block;
+		}
+		.content_right{
+			margin-left:62px;
+			width:500px;
+		}
+		.name{
+			display:inline-block;
+			font-family:Microsoft YaHei;
+			font-weight:bold;
+			font-size:15px;
+		}
+		.time{
+			font-family:Microsoft YaHei;
+			font-size:12px;
+			margin-top:3px;
+			color:#9c9895;
+		}
+		.text{
+			font-family:Microsoft YaHei;
+			font-size:14px;	
+			text-indent:33px;
+		}	
+		.content_up {
+			padding: 8px 8px ;
+		}
+		.content_down{
+			color:#c0c0c0;
+			border-top: 1px solid #ccc;
+		}
+		.content_down ul {
+			font-size: 0;
+			padding: 5px 0;
+		}
+		.content_down ul li{
+			display: inline-block;
+			width: 33.2%;
+			font-size: 14px;
+			line-height: 25px;
+			text-align: center;
+		}
+		.content_down ul li:not(:last-child){
+			border-right: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="content_up">
+			<div class="content_left">
+				<img src="../../img/50x50.jpg"/>
+			</div>
+			<div class="content_right">
+				<div class="name">刘魏峰</div><img src="../../img/icon.jpg"/>
+				<div class="time">今天09:14来自手机微信触屏版</div>
+				<div class="text">面对支付宝和微信的烧钱推广和地推团队，苹果公司未能放下身段去做类似的事。你无法想象库克船长号召中国大妈们拿着Iphnoe去超市抢打折的大米，但马云可以。</div>
+			</div>
+		</div>		
+		<div class="content_down">
+			<ul>
+				<li>转发</li>
+				<li>评论</li>
+				<li>点赞</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

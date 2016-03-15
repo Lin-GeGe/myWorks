@@ -1,0 +1,233 @@
+body{
+	margin:0;
+	background-color: #5d6766;
+	font-family: Microsoft YaHei;
+}
+h5{
+	font-weight: normal;
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style-type: none;
+}
+button{
+	border:none;
+	font-size: 14px;
+	outline: none;
+}
+th{
+	font-weight: normal;
+}
+.container{
+	margin:10px auto;
+	width: 853px;
+	background-color: #fff;
+}
+.container:after{
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.content_l{
+	width: 334px;
+	padding:5px;
+	border-right: 1px solid #5d707f;
+	display: inline-block;
+	float: left;
+}
+.row{
+	margin-top:10px;
+	text-align: center;
+}
+.content_l button{
+	color: #fff;
+	letter-spacing: 3px;
+	padding-left: 9px;
+	border: none;
+	border-radius: 3px;
+}
+.checkOut{
+	width: 58px;
+	height: 35px;
+	background-color: #ab0702;
+}
+.numberMenu{
+	width: 91px;
+	height: 35px;
+	background-color: #562b8e;
+}
+.row table{
+	width: 290px;
+	margin: 0 auto;
+	margin-bottom: 251px;
+}
+.thColor td{
+	background-color:#f3e9a6;
+	padding:5px;
+	font-size: 14px;
+}
+table .thColor:first-child th{
+	background-color: #056b93;
+	color: #fff;
+}
+table .thColor:not(:first-child) td:first-child{
+	text-align: left;
+}
+
+.content_r{
+	width: 448px;
+	display: inline-block;
+	padding:5px 30px;
+	position: relative;
+}
+.windows{
+	width:410px;
+	height: 168px;background: #fff;
+	padding: 21px 12px;
+	background-color: #F0E68C;
+	border: 1px solid;
+	position: absolute;
+	right: 6.8%;
+	top: 14%;
+	display: none;
+}
+.phyList{
+	text-align: center;
+	background-color: #5e38a5;
+	color: #fff;
+	width: 146px;
+	display: inline-block;
+	margin-top: 5px;
+}
+.phyList img{
+	border: 1px solid #49475c;
+}
+.phyList h5{
+	height: 25px;
+}
+.phyList h5 span{
+	color:#f1e450;
+}
+.timeWifi{
+	display: inline-block;
+	margin: 15px 0;
+	color:red;
+}
+.timeWifi span:first-child{
+	font-size: 12px;
+	color: #000;
+}
+.page{
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+}
+.page button{
+	width: 33px;
+	height: 25px;
+	background-color: #cfcfcf;
+	margin-right: 6px;
+}
+.menuList button{
+	width: 85px;
+	height: 40px;
+	font-size: 12px;
+	background-color:#0c8bda;
+	color: #fff;
+	border-style: solid;
+}
+
+.numberMenu_onclick{
+	width: 300px;
+	padding:10px;
+	background-color: #fff;
+}
+.numberMenu_onclick:after{
+	content:'';
+	display:block;
+	height:0;
+	overflow:hidden;
+	clear:both;
+}
+.numberArea{
+	width: 200px;
+	float:left;
+}
+.numberArea input{
+	width: 200px;
+	height: 25px;
+}
+
+.numberArea button{
+	width: 53px;
+	height: 39px;
+    margin: 5px;
+}
+.btnArea{
+	display: inline-block;
+	margin-left:21px;
+}
+.btnArea button{
+	display: block;
+	height: 33px;
+	width: 73px;
+	margin: 14px 0;
+}
+.masklayer{
+	background-color:#000;
+	opacity: 0.5;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	position: absolute;
+	display: none;
+}
+.numberMenu_onclick{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 1010;
+    display: none;
+}
+
+
+
+.img,.text{
+	display: inline-block;
+}
+.text{
+	vertical-align: top;
+	margin-left: 5px;
+}
+.text span{
+	margin: 3px 0;
+	display: inline-block;
+}
+.text span:last-child{
+	color:red;
+}
+.btn{
+	margin-top: 47px;
+}
+.btn button{
+	width: 89px;
+	height: 33px;
+	margin-left: 9%;
+	background-color: #fff;
+}
+.btn button:first-child{
+	margin-left: 20%;
+}
+
+
+

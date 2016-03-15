@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>输入六个正整数，而且这六个正整数中至少存在一个奇数跟偶数。设这个正整数中
+最大的奇数为a，最少的偶数为b，求出a-b的绝对值。</title>
+</head>
+<body>
+<script>
+//1.判断输入的是否为6位数
+// 1.判断是否为正整数
+// 2.如果是正整数，那至少有一个奇数跟一个偶数
+// 3.判断出最大的奇数a，跟最大的偶数b
+// 4.算出a-b的绝对值
+window.onload = function(){
+	getResult(1,2,3,4,5,6);
+}
+
+function getResult(){
+	var args = arguments;
+	if(args.length != 6){
+		return;
+	}
+	//1、把六个数分成奇数，偶数，分别存在相应的数组里；
+	var odd=[],even=[];
+	for(var i=0,len=args.length;i<len;i++){
+		if(!isPositiveNum(args[i])){
+			console.log('这6个数有一个不是正整数');
+			return;
+		}
+		if(args[i]%2==0)
+		{
+			even.push(args[i]);
+		}
+		else
+		{
+           odd.push(args[i]);     
+		}
+	}
+	console.log(odd);
+	console.log(even);
+	if(odd.length == 0 || even.length ==0){
+		console.log('这6个数不符合至少一个偶数或一个奇数的条件');
+		return;
+	}
+	//2、先取出奇数的最大值
+	var max = getMax(odd);
+	//3、取出偶数的最小值
+    var min = getMin(even);
+	//4、求出最大奇数减最小偶数的绝对值
+	var result = getAbs(max, min);
+	console.log('结果为： '+ result);
+}
+
+function getMax(args){
+	var max = args[0];
+	for(var i=1,len=args.length;i<len;i++)
+	{
+		if(max<args[i])
+		{
+			max=args[i];
+		}
+	}
+	return max;
+}
+
+function getMin(args){
+	var min = args[0];
+	for(var i=1,len=args.length;i<len;i++)
+	{
+		if(min>args[i])
+		{
+			min=args[i];
+		}
+	}
+	return min;
+}
+
+function getAbs(a, b){
+	return Math.abs(a-b);
+}
+
+function isPositiveNum(s){//是否为正整数 
+	var re = /^[0-9]*[1-9][0-9]*$/ ; 
+	return re.test(s);
+} 
+
+</script>
+	
+</body>
+</html>

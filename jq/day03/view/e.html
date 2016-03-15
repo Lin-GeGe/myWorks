@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 从一个数组里，取出所有的偶数放入一个新数组，取出所有奇数放入另一个新数组 -->
+	<!--  -->
+	<script>
+		var odd=[],even=[];
+		var array = [1,33,46,32,56,81,12,13,0,6,5,3];
+		for(var i=0,len=array.length;i<len;i++){
+			if(array[i]%2==0){
+				odd.push(array[i]);
+			}else 
+			{
+				even.push(array[i]);
+			}
+		}
+		sum(odd);
+		sum(even);
+		function sum(arr){
+			// var sum = arguments[0];
+			// for(var i=1,len=arguments.length;i<len;i++){
+			// 	sum += arguments[i];
+			// }
+			// console.log(sum);
+			//var args = arguments;
+			var sum = 0;
+			for(var i=0,len=arr.length;i<len;i++){
+				sum += arr[i];
+			}
+			console.log(sum);
+		}
+	</script>
+</body>
+</html>

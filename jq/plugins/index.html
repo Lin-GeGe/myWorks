@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swiper</title>
+	<link rel="stylesheet" href="css/swiper.css">
+	<style>
+		.swiper-container {
+			width: 450px;
+			height: 250px;
+		}
+		.swiper-slide img {
+			width: 100%;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<img src="http://imgsrc.baidu.com/baike/pic/item/7acb0a46f21fbe0941a3e1436f600c338644ade3.jpg" alt="">
+        	</div>
+            <div class="swiper-slide">
+            	<img src="http://pic30.nipic.com/20130519/942707_090427502000_2.jpg" alt="">
+        	</div>
+            <div class="swiper-slide">
+            	<img src="http://imgp.gmw.cn/forum/201402/07/122413ogkz9kw2uf99lrf8.jpg" alt="">
+        	</div>
+        </div>
+    </div>
+	<script src="js/swiper.js"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: 1000,//可选选项，自动滑动
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	background-color: #464853;
+}
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	min-width: 320px;
+	max-width: 510px;
+	margin: 0 auto;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+.signBar {
+	background-color: #d2d8d8;
+	font-size: 0;
+}
+.signBar > a {
+	color: #809191;
+	font-size: 12px;
+	text-decoration: underline;
+	width: 50%;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+.loginForm {
+	padding: 20px;
+	background-color: #fff;
+}
+.row {
+	margin-bottom: 20px;
+}
+.row{
+	margin-bottom: 10px;
+}
+.userName{
+	height: 50px;
+	width: 91%;
+	border: 1px solid #d2d8d8;
+	border-radius: 3px;
+	color: #aaa;
+	padding-left: 32px;
+    background:url(../img/login-2/userName.jpg) no-repeat left 0 center;
+}
+.userPw{
+	height: 50px;
+	width: 91%;
+	border: 1px solid #d2d8d8;
+	border-radius: 3px;
+	color: #aaa;
+	padding-left: 32px;
+    background:url(../img/login-2/password.jpg) no-repeat left 0 center;
+}
+
+#remember {
+	vertical-align:text-top; 
+}
+.rememberType label{
+	font-size: 14px;
+}
+.btnSub {
+	background-color: #2F889A;
+	height: 50px;
+	display: inline-block;
+	width: 98%;
+	border-radius: 3px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bolder;
+}

@@ -1,0 +1,11 @@
+ul li{
+	list-style-type: none;
+}
+.list{
+	width: 130px;
+	height: 344px;
+	background:#eee;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding:20px 10px;
+}

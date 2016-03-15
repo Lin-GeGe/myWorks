@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.parent {
+			position: relative;
+			background-color: #ccc;
+			width: 500px;
+			height: 500px;
+			border: 1px solid #f00;
+		}
+		.subparent {
+			position: relative;
+			background-color: #fff;
+			width: 400px;
+			height: 400px;
+		}
+		.sub {
+			position: absolute;
+			background-color: #000;
+			width: 200px;
+			height: 200px;
+		}
+		.sub2 {
+			position: absolute;
+			background-color: #aaa;
+			width: 200px;
+			height: 200px;
+			right: 0;
+			bottom: 0;
+		}
+		.masklayer {
+			background-color: #000;
+			position: absolute;
+			opacity: 0.8;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 998;
+		}
+		.box {
+			background-color: #fff;
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			z-index: 999;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="subparent">
+			<div class="sub"></div>
+			<div class="sub2"></div>
+		</div>
+	</div>
+	<div class="masklayer">
+		<div class="box"></div>
+	</div>
+</body>
+</html>

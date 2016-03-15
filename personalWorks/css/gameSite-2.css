@@ -1,0 +1,141 @@
+body,h5,h3{
+	margin: 0;
+}
+/* reset bootstrap css*/
+.container {
+	width: 770px;
+	margin: 0 auto;	
+	background-color: #f8f8f8;
+	padding:0;
+}
+.row{
+	margin: 6px 0;
+}
+.header_menu{
+	width: 21px;
+	height: 19px;
+	background: url(../img/gameSite/sprite.png) no-repeat;
+	background-position: -39px 3px;
+	display: inline-block;
+	background-size: 60px 174px;
+}
+.header_logo{
+	height: 19px;
+	background:url(../img/gameSite/logo.png) no-repeat center;
+    display: block;
+    background-size: 80px;
+	margin-top: 2px;
+}
+
+.header_search{
+	height: 19px;
+	background: url(../img/gameSite/sprite.png) no-repeat;
+	background-position: 37px -17px;
+	display:block;
+	background-size: 60px 174px;
+}
+.bigPic img{
+	width: 100%;
+}
+.nav{
+	width:20%;
+}
+.navPic{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/gameSite/nav.png) no-repeat;
+	margin: 0 auto;
+	background-size: cover;
+	margin-top:5px;
+}
+.navText{
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+.titleBar{
+	height: 31px;
+	line-height: 31px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+	padding: 0 8px;
+	border-left: 8px solid #4398d1;
+}
+.titleBar h3{
+	display: inline-block;
+	font-size: 17px;
+	color: #4398d1;
+}
+.titleBar a{
+	float: right;
+	color: #888;
+}
+.gamelist_content{
+	text-align: center;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.gamelist_content:nth-of-type(8){
+	border-bottom:none;
+}
+.gamelist_content:nth-of-type(9){
+	border-bottom:none;
+}
+.gamelist_content:nth-of-type(10){
+	border-bottom:none;
+}
+.gamelist_content h4{
+	font-size: 14px;
+}
+
+.gamelist_content p{
+	color: #968888;
+	margin: 0 0 5px 0;
+}
+.gameDown{
+	background-color: #4398d1;
+	padding: 3px 3px 3px 5px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.gameDown i{
+	background: url(../img/gameSite/sprite.png);
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background-position: -47px -39px;
+	background-size: 60px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+.picList {
+	width: 109px;
+	height: 93px;
+	margin: 15px;
+	padding-bottom: 19px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.picList h4{
+	font-size: 15px;
+	margin: 15px 0 5px 0;
+}
+.picList p {
+	font-size: 12px;
+	color: #888;
+    max-height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.textList{
+	font-size: 14px;
+	margin: 3px 0;
+}
+.textList_title {
+	display: inline-block;
+	color: #888;
+}

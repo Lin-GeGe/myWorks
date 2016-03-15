@@ -1,0 +1,9 @@
+.contral{
+	text-align:center;
+}
+#pic{
+	margin: 10px auto;
+	width: 100px;
+	height: 100px;
+	background: #000;
+}

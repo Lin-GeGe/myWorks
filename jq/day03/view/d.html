@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三个黑色边框的div，鼠标移上去，底部滑动出一个标题栏，显示当前div的索引值</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		.color{
+			width: 100px;
+			height: 100px;
+			background-color: #000;
+			display:inline-block;
+			position: relative;
+		}
+		.bottom{
+			width: 100px;
+			height: 0;
+			background-color: #f00;
+			color: #fff;
+			position: absolute;
+			bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="color">
+			<div class="bottom">出来</div>
+		</div>
+		<div class="color">
+			<div class="bottom">出来</div>
+		</div>
+		<div class="color">
+			<div class="bottom">出来</div>
+		</div>
+	</div>
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		// $('.color').mouseover(function(){
+		// 	$(this).children('.bottom').slideUp(1000,function(){
+		// 		  $(this).show();
+		// 	});
+		// });
+
+		$('.color').mouseover(function(){
+			//console.log($(this).index());
+			//$(this).children('.bottom').slideToggle(500);
+			$(this).children('.bottom').animate({'height': '20px'}, 500);
+		}).mouseout(function(){
+			$(this).children('.bottom').animate({'height': '0'}, 500);
+		});
+
+	});
+
+
+
+	</script>
+ 
+ 
+	
+</body>
+</html>

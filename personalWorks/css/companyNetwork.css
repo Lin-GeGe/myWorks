@@ -1,0 +1,211 @@
+body{
+	margin: 0;
+	font-family: Open Sans;
+	line-height:1;
+}
+p{
+	margin: 0;
+}
+h5,h4{
+	margin: 0;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	min-width: 242px;
+}
+#header{
+	height: 51px;
+	/*background:#587eac url(../img/companyNetwork/logo.svg) no-repeat center;*/
+	background:#587eac;
+	text-align: center;
+}
+#header a{
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+.menu{
+    background: url(../img/companyNetwork/icons.svg) -14px -299px;
+    position: absolute;
+    left: 10px;
+}
+.backBtn{
+    background: url(../img/companyNetwork/icons.svg) -79px -299px;
+    position: absolute;
+    right: 10px;
+}
+#header span{
+    margin-top: -10px;
+	display: inline-block;
+}
+.nav{
+	height: 40px;
+	line-height:40px;
+	text-align: center;
+	background-color: #233241;
+	position: relative;
+	color: #fff;
+}
+.nav i{
+	height: 26px;
+    width: 26px;
+    left: 10px;
+	background:url(../img/companyNetwork/icons.svg) no-repeat
+	left 0 center;
+    background-position: -4px -218px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+}
+.carouselPic img{
+	width:100%;
+}
+.mainTex{
+	padding: 10px;
+}
+.list{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.list_g,.list_o,.list_r{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+}
+.list_g{
+	background:#9eb74e url(../img/companyNetwork/icons.svg) no-repeat
+	left 0 center;
+	  background-position: -1px -1px;
+}
+.list_o{
+	background:#E0AF50 url(../img/companyNetwork/icons.svg) no-repeat
+	left 0 center;
+	background-position: -1px -1px;
+}
+.list_r {
+	background:#ff7a73 url(../img/companyNetwork/icons.svg) no-repeat
+	left 0 center;
+	background-position: -1px -1px;
+}
+.list h5{
+	font-size: 15px;
+}
+.list p{
+	margin:5px 0;
+	font-size: 13px;
+    color: #979797;
+}
+.text_green{
+	color: #91B74e;
+}
+.text_orange{
+	color: #E0AF50;
+}
+.text_red{
+	color: #ff7a73;
+}
+.footer_t{
+	height: 51px;
+    line-height: 51px;
+    background-color: #f1f2f4;
+    text-align: center;
+    border-top: 1px solid #ccd2d8;
+    border-bottom: 1px solid #ccd2d8;
+}
+.footer_t h5{
+	font-weight: bold;
+}
+.icon{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background:#9eb74e url(../img/companyNetwork/icons.svg) no-repeat
+	left 0 center;
+	background-position: -1px -1px;
+}
+.footer_m{
+    padding: 5px 0 0 1px;
+    font-size: 0;
+}
+.footer_m:after{
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.footer_m a{
+	display: inline-block;
+	float: left;
+    padding: 1%;
+    width: 30.9%;
+    text-align: center;
+    border-bottom: 1px solid #ccd2d8;
+}
+.middle{
+	border-left: 1px solid #ccd2d8;
+	border-right: 1px solid #ccd2d8;
+}
+
+.footer_m h4{    
+	padding: 10px;
+    color: #000;
+    font-size: 15px;
+}
+.footer_b{
+	height: 42px;
+	line-height: 42px;
+	background-color: #233241;
+	text-align: center;
+}
+
+.footer_b a {
+	width: 26px;
+    height: 26px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.ico-facebook{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -15px -465px;
+}
+.ico-twitter{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -40px -465px;
+}
+.ico-linkedin{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -67px -465px;
+}
+.ico-gplus{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -93px -465px;
+}
+.ico-youtube{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -120px -465px;
+}
+.ico-tumblr{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -145px -465px;
+}
+.ico-pinterest{
+	background: url("../img/companyNetwork/icons.svg") no-repeat left ;
+	background-position: -172px -465px;
+}
+

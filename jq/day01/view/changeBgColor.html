@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.wrap {
+			width: 500px;
+			margin: 0 auto;
+		}
+		.pic {
+			width: 100px;
+			height: 100px;
+			background-color: #000;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="pic"></div>
+		<div class="pic"></div>
+		<div class="pic"></div>
+		<div class="pic"></div>
+	</div>
+	<script src="../js/jquery-1.9.1.js"></script>
+	<script>
+	//$(function(){}); == $(document).ready(function(){});
+	$(function(){
+		//全部变色
+		$('.pic').bind('mouseover', function(e){ 
+		//$('.pic') 获取的是jquery对象数组，jquery会在底层循环绑定
+			$('.pic').css('backgroundColor', '#000');
+			$(this).css('backgroundColor', '#f00');
+		});
+	});
+	</script>
+</body>
+</html>

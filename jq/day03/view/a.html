@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三个黑色div，滑上去，三个变红，移出来，三个恢复；
+   变：三个黑色div，滑上去哪个，哪个变红，其余不变，移出来，颜色恢复，其余不变；
+</title> 
+	<style>
+	body{
+		text-align: center;
+	}
+	.color{
+		width: 100px;
+		height: 100px;
+		background-color: #000;
+		display:inline-block;
+	}
+	.cc{
+		background-color: #f00;
+	}
+	</style>
+</head>
+<body>
+	<div class="color"></div>
+	<div class="color"></div>
+	<div class="color"></div>
+	<script src="../js/jquery-1.9.1.js"></script>
+	<script>
+	// 三个黑色div，滑上去，三个变红，移出来，三个恢复；
+		// $(document).ready(function(){
+  //            $('.color').mouseover(function(){
+  //                 $('.color').css({'background':'red'});
+  //            }),
+  //            $('.color').mouseout(function(){
+  //                 $('.color').css({'background':''});
+  //            });
+		// });
+	// 三个黑色div，滑上去哪个，哪个变红，其余不变，移出来，颜色恢复，其余不变；
+     // $(document).ready(function(){
+     // 	// for(var i=0;i<$('.color').length;i++){
+     // 		$('.color').mouseover(function(){
+     // 		 	$(this).css('background','red');
+     //        }).mouseout(function(){
+     // 		 	$(this).css({'background':''});
+     //        });//链式写法，调用的是同一个对象
+     // 	// };   //多个对象时css({'':''});
+     // 	        //单个对象时css('',''); 	
+     // });
+     //给元素添加一个class属性
+          $(document).ready(function(){
+     	// for(var i=0;i<$('.color').length;i++){
+     		$('.color').mouseover(function(){
+     		 	$(this).addClass('cc');
+            }).mouseout(function(){
+     		 	$(this).removeClass('cc');
+            });//链式写法，调用的是同一个对象
+     	// };   //多个对象时css({'':''});
+     	        //单个对象时css('',''); 	
+     });
+	</script>
+</body>
+</html>

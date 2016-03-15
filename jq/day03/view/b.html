@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三个黑色div，里面有字，字为白色，滑上去其中一个，颜色变红，边框变黑，字体变黑；alert出它的索引值；其他不变；离开恢复；
+</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		.color{
+			width: 100px;
+			height: 100px;
+			background-color: #000;
+			color:#fff;
+			display:inline-block;
+			border:1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<div class="color">邹宇绅</div>
+	<div class="color">邹宇绅</div>
+	<div class="color">邹宇绅</div>
+	<script src="../js/jquery-1.9.1.js"></script>
+	<script>
+	$(document).ready(function(){
+	   $('.color').mouseover(function(){
+          $(this).css({'background':'red','border':'1px solid #000','color':'#000'})
+          alert($(this).index());
+	   }).mouseout(function(){
+          $(this).css({'background':'#000','border':'','color':'#fff'})
+          alert($(this).index());
+	   });
+
+	});
+	</script>
+</body>
+</html>
