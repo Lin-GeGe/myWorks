@@ -1,0 +1,9 @@
+#content div{
+	border: 2px solid #ccc;
+	padding: 10px;
+	text-indent: 2em;
+	cursor: pointer;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}

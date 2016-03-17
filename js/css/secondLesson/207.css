@@ -1,0 +1,34 @@
+.box{
+	margin: 0 auto;
+    width: 450px;
+    border:1px #000 solid ;
+}
+ul{
+	padding:0;
+}
+.header{
+	height: 28px;
+    line-height: 28px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px;
+}
+.header span{
+	width: 77px;
+    display: inline-block;
+    text-align: center;
+}
+.content ul{
+	padding-left: 31px;
+	font-size: 13px;
+	line-height: 24px;
+}
+.content ul:not(:first-child){
+	display: none;
+}
+
+.header .current {
+	background-color:#ccc;
+	color:#000;
+}

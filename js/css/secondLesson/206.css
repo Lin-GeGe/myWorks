@@ -1,0 +1,38 @@
+.box{
+	width: 710px;
+	height: 296px;
+	border:1px solid #000;
+	margin:0 auto;
+}
+ul,li{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style-type: none;
+	float: left;
+	cursor:crosshair;
+}
+.picList:after{
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.picList{
+	padding:0 0 10px 10px;
+}
+.picList li{
+	border:1px solid #ccc;
+	margin: 10px 10px 0 0;
+}
+.picList li img {
+	opacity: 0.5;
+}
+.picList li.current img{
+	opacity:1;
+}
+.lastFive{
+	margin-top: 8px;
+}

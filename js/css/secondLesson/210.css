@@ -1,0 +1,58 @@
+body{
+	font-family: Tahoma;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+h4{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.box{
+	width: 660px;
+	height: 293px;
+	border:1px solid #000;
+	margin: 0 auto;
+	padding:0 0 10px 10px;
+}
+.box h4{
+	text-align: center;
+	margin-top: 10px;
+}
+.textList:after{
+	content:'';
+	display: block;
+	height: 0;
+	overflow:hidden;
+	clear: both;
+}
+.textList li{
+	float: left;
+	border:1px solid #000;
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	padding: 10px;
+	font-size: 13px;
+	margin: 10px 10px 0 0;
+	position: relative;
+}
+.textList li strong{
+	display: block;
+	margin-bottom:5px;
+}
+.textList li img{
+    position: absolute;
+    top: -6px;
+    left: -3px;
+    border: 2px solid #000;
+}
+.current{
+	z-index: 1;
+}
+

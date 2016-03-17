@@ -1,0 +1,19 @@
+.box{
+    font-size: 12px;
+    width: 461px;
+    margin: 0 auto;
+}
+#number{
+    width: 227px;
+}
+.box span{
+    color: #999;
+}
+#sumBtn{
+    margin-top: 10px;
+}
+#resultContent{
+	font-size: 47px;
+	margin-top:10px;
+	color: red;
+}
