@@ -1,12 +1,12 @@
-/*	给元素对象添加事件监听
-	target -> 元素对象（document.getElementById）
-	eventType -> 事件类型（click、mouseover等）注意不要“on”
-	handler -> 回调函数(要做什么)
-	addHandler(obj, 'click', function(){
-		//dosomething...
-	});
-	addHandler(obj, 'click', add); //add为函数名，不要“（）”
-*/
+	// 给元素对象添加事件监听
+	// target -> 元素对象（document.getElementById）
+	// eventType -> 事件类型（click、mouseover等）注意不要“on”
+	// handler -> 回调函数(要做什么)
+	// addHandler(obj, 'click', function(){
+	// 	//dosomething...
+	// });
+	// addHandler(obj, 'click', add); //add为函数名，不要“（）”
+
 
 function addHandler(target, eventType, handler){  
     if(target.addEventListener){//主流浏览器  
@@ -40,6 +40,6 @@ function getObjById(id){
 	return document.getElementById(id);
 }
 function getObjByClassName(id){
-    return document.getElementsClassName(id);
+    return document.getElementsByClassName(id);
 }
 
